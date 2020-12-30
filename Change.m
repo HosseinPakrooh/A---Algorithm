@@ -1,0 +1,107 @@
+function Changeout=Change(q)
+
+if(Rigth(q{1})>Rigth(q{3}))
+    t=q{1};
+    t1=q{2};
+    q{1}=q{3};
+    q{2}=q{4};
+    q{3}=t;
+    q{4}=t1;
+end
+if(Rigth(q{1})>Rigth(q{5}))
+     t=q{1};
+    t1=q{2};
+    q{1}=q{5};
+    q{2}=q{6};
+    q{5}=t;
+    q{6}=t1;
+end
+if(Rigth(q{1})>Rigth(q{7}))
+    t=q{1};
+    t1=q{2};
+    q{1}=q{7};
+    q{2}=q{8};
+    q{7}=t;
+    q{8}=t1;
+end
+
+
+if(Rigth(q{3})>Rigth(q{1}))
+     t=q{3};
+    t1=q{4};
+    q{3}=q{1};
+    q{4}=q{2};
+    q{1}=t;
+    q{2}=t1;
+end
+if(Rigth(q{3})>Rigth(q{5}))
+    t=q{3};
+    t1=q{4};
+    q{3}=q{5};
+    q{4}=q{6};
+    q{5}=t;
+    q{6}=t1;
+end
+if(Rigth(q{3})>Rigth(q{7}))
+     t=q{3};
+    t1=q{4};
+    q{3}=q{7};
+    q{4}=q{8};
+    q{7}=t;
+    q{8}=t1;
+end
+
+
+if(Rigth(q{5})>Rigth(q{1}))
+     t=q{5};
+    t1=q{6};
+    q{5}=q{1};
+    q{6}=q{2};
+    q{1}=t;
+    q{2}=t1;
+end
+if(Rigth(q{5})>Rigth(q{3}))
+     t=q{5};
+    t1=q{6};
+    q{5}=q{3};
+    q{6}=q{4};
+    q{3}=t;
+    q{4}=t1;
+end
+if(Rigth(q{5})>Rigth(q{7}))
+     t=q{5};
+    t1=q{6};
+    q{5}=q{7};
+    q{6}=q{8};
+    q{7}=t;
+    q{8}=t1;
+end
+
+
+if(Rigth(q{7})>Rigth(q{1}))
+    t=q{7};
+    t1=q{8};
+    q{7}=q{1};
+    q{8}=q{2};
+    q{1}=t;
+    q{2}=t1;
+end
+if(Rigth(q{7})>Rigth(q{3}))
+     t=q{7};
+    t1=q{8};
+    q{7}=q{3};
+    q{8}=q{4};
+    q{3}=t;
+    q{4}=t1;
+end
+if(Rigth(q{7})>Rigth(q{5}))
+     t=q{7};
+    t1=q{8};
+    q{7}=q{5};
+    q{8}=q{6};
+    q{5}=t;
+    q{6}=t1;
+end
+
+Changeout=q;
+end
